@@ -1,0 +1,226 @@
+
+.moblie {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+body {
+    background: #fafafa;
+}
+.card {
+    padding: 2rem;
+}
+.slide2 {
+    position: absolute;
+    top: 40px;
+}
+.intro-card {
+    background: url("../img/intro-bg.jpeg") no-repeat;
+    background-size: 95%;
+    background-position: bottom right;
+}
+
+.verticalLine {
+    border-left: thin solid #000;
+    height: 150px;
+    margin-top: 2rem;
+}
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif !important;
+    color: #333333;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 200;
+    letter-spacing: 0.025rem;
+    max-width: none !important;
+    letter-spacing: 0.025em;
+    font-weight: 300;
+}
+/*@media only screen and (min-width: 768px) {*/
+/*!* For desktop: *!*/
+/*p {*/
+/*font-size: 1.2rem;*/
+/*}*/
+/*}*/
+/*@media only screen and (min-width: 1171px) {*/
+/*!* For desktop: *!*/
+/*p {*/
+/*font-size: 2rem;*/
+/*}*/
+/*}*/
+.header-title {
+    position: absolute;
+    max-width: 300px;
+    top: 40px;
+    left: 0px;
+}
+@media only screen and (min-width: 1033px) {
+    .third {
+        background: url("../img/1.jpg") no-repeat bottom right;
+        background-size: 115%;
+    }
+
+    .fourth {
+        background: url("../img/2.jpg") no-repeat bottom right;
+        background-size: 115%;
+    }
+
+    .fivth {
+        background: url("../img/3.jpg") no-repeat bottom right;
+        background-size: 115%;
+    }
+
+    .sixth {
+        background: url("../img/4.jpg") no-repeat bottom right;
+        background-size: 115%;
+    }
+
+    .seventh {
+        background: url("../img/5.jpg") no-repeat bottom right;
+        background-size: 115%;
+    }
+
+    .eighth {
+        background: url("../img/6.jpg") no-repeat bottom right;
+        background-size: 115%;
+    }
+
+    .nineth {
+        background: url("../img/7.jpg") no-repeat bottom right;
+        background-size: 115%;
+    }
+
+    .tenth {
+        background: url("../img/8.jpg") no-repeat bottom right;
+        background-size: 115%;
+    }
+}
+
+@media only screen and (min-width: 1380px) {
+    .third {
+        background: url("../img/1.jpg") no-repeat bottom right;
+        background-size: 95%;
+    }
+
+    .fourth {
+        background: url("../img/2.jpg") no-repeat bottom right;
+        background-size: 95%;
+    }
+
+    .fivth {
+        background: url("../img/3.jpg") no-repeat bottom right;
+        background-size: 95%;
+    }
+
+    .sixth {
+        background: url("../img/4.jpg") no-repeat bottom right;
+        background-size: 95%;
+    }
+
+    .seventh {
+        background: url("../img/5.jpg") no-repeat bottom right;
+        background-size: 95%;
+    }
+
+    .eighth {
+        background: url("../img/6.jpg") no-repeat bottom right;
+        background-size: 95%;
+    }
+
+    .nineth {
+        background: url("../img/7.jpg") no-repeat bottom right;
+        background-size: 95%;
+    }
+
+    .tenth {
+        background: url("../img/8.jpg") no-repeat bottom right;
+        background-size: 90%;
+    }
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.imageHead {
+    position: absolute;
+    top: 25px;
+    margin-left: 8.3333333333%;
+}
+.section {
+    height: 0%;
+}
+.eleventh {
+    background-color: #333333;
+}
+div.footer > p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.7rem;
+
+}
+.cta-Logo {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    max-width: 238px;
+}
+
+@media only screen and (max-width: 700px) {
+    .slide2 > p {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+h1 {
+    font-size: 1.6rem;
+}
+#fp-nav > ul > li > a.active > span {
+    height: 10px;
+    width: 10px;
+    background-color: #333;
+    border: solid 1px #333;
+}
+#fp-nav > ul > li > a > span {
+    height: 10px;
+    width: 10px;
+    background-color: #fafafa;
+    border: solid 1px #333;
+}
+#fp-nav {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+@media only screen and (max-width: 320px) {
+    p.intro-p-text {
+        font-size: .9rem;
+        line-height: 1.2rem;
+    }
+    p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+
+}
