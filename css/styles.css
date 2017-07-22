@@ -12,7 +12,7 @@ body {
 }
 .slide2 {
     position: absolute;
-    top: 40px;
+    top: 60px;
 }
 .intro-card {
     background: url("../img/intro-bg.jpeg") no-repeat;
@@ -20,11 +20,6 @@ body {
     background-position: bottom right;
 }
 
-.verticalLine {
-    border-left: thin solid #000;
-    height: 150px;
-    margin-top: 2rem;
-}
 .flex-container {
     padding: 0;
     margin: 0;
@@ -60,91 +55,50 @@ p {
 .header-title {
     position: absolute;
     max-width: 300px;
-    top: 40px;
+    top: 60px;
     left: 0px;
 }
-@media only screen and (min-width: 1033px) {
-    .third {
-        background: url("../img/1.jpg") no-repeat bottom right;
-        background-size: 115%;
-    }
 
-    .fourth {
-        background: url("../img/2.jpg") no-repeat bottom right;
-        background-size: 115%;
-    }
-
-    .fivth {
-        background: url("../img/3.jpg") no-repeat bottom right;
-        background-size: 115%;
-    }
-
-    .sixth {
-        background: url("../img/4.jpg") no-repeat bottom right;
-        background-size: 115%;
-    }
-
-    .seventh {
-        background: url("../img/5.jpg") no-repeat bottom right;
-        background-size: 115%;
-    }
-
-    .eighth {
-        background: url("../img/6.jpg") no-repeat bottom right;
-        background-size: 115%;
-    }
-
-    .nineth {
-        background: url("../img/7.jpg") no-repeat bottom right;
-        background-size: 115%;
-    }
-
-    .tenth {
-        background: url("../img/8.jpg") no-repeat bottom right;
-        background-size: 115%;
-    }
+@media only screen and (min-width: 700px) {
+.third {
+    background: url("../img/1.jpg") no-repeat bottom right;
+    background-size: 85%;
 }
 
-@media only screen and (min-width: 1380px) {
-    .third {
-        background: url("../img/1.jpg") no-repeat bottom right;
-        background-size: 95%;
-    }
+.fourth {
+    background: url("../img/2.jpg") no-repeat bottom right;
+    background-size: 85%;
+}
 
-    .fourth {
-        background: url("../img/2.jpg") no-repeat bottom right;
-        background-size: 95%;
-    }
+.fivth {
+    background: url("../img/3.jpg") no-repeat bottom right;
+    background-size: 85%;
+}
 
-    .fivth {
-        background: url("../img/3.jpg") no-repeat bottom right;
-        background-size: 95%;
-    }
+.sixth {
+    background: url("../img/4.jpg") no-repeat bottom right;
+    background-size: 85%;
+}
 
-    .sixth {
-        background: url("../img/4.jpg") no-repeat bottom right;
-        background-size: 95%;
-    }
+.seventh {
+    background: url("../img/5.jpg") no-repeat bottom right;
+    background-size: 85%;
+}
 
-    .seventh {
-        background: url("../img/5.jpg") no-repeat bottom right;
-        background-size: 95%;
-    }
+.eighth {
+    background: url("../img/6.jpg") no-repeat bottom right;
+    background-size: 85%;
+}
 
-    .eighth {
-        background: url("../img/6.jpg") no-repeat bottom right;
-        background-size: 95%;
-    }
+.nineth {
+    background: url("../img/7.jpg") no-repeat bottom right;
+    background-size: 85%;
+}
 
-    .nineth {
-        background: url("../img/7.jpg") no-repeat bottom right;
-        background-size: 95%;
-    }
-
-    .tenth {
-        background: url("../img/8.jpg") no-repeat bottom right;
-        background-size: 90%;
-    }
+.tenth {
+    background: url("../img/8.jpg") no-repeat bottom right;
+    background-size: 70%;
+}
 }
 
 h1 {
@@ -157,7 +111,7 @@ h1 {
 }
 .imageHead {
     position: absolute;
-    top: 25px;
+    top: 45px;
     margin-left: 8.3333333333%;
 }
 .section {
@@ -174,8 +128,8 @@ div.footer > p {
 }
 .cta-Logo {
     display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
+    justify-content: center;
+    align-items: center;
     max-width: 238px;
 }
 
@@ -207,13 +161,15 @@ h1 {
 }
 #fp-nav {
     position: absolute;
-    top: 150px;
+    top: 170px;
     left: 0px;
 }
-@media only screen and (max-width: 320px) {
+
+
+@media only screen and (max-width: 700px) {
     p.intro-p-text {
-        font-size: .9rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.35rem;
     }
     p {
         font-size: 1.4rem;
@@ -221,6 +177,19 @@ h1 {
     }
     h1 {
         font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    p.intro-p-text {
+        font-size: .8rem;
+        line-height: 1.1rem;
+    }
+    p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    h1 {
+        font-size: 1.2rem;
     }
 
 }
