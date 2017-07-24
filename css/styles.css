@@ -62,54 +62,60 @@ p {
 @media only screen and (min-width: 992px) {
 .third {
     background: url("../img/1.jpg") no-repeat bottom right;
-    background-size: 85%;
+    background-size: 100%;
 }
 
 .fourth {
     background: url("../img/2.jpg") no-repeat bottom right;
-    background-size: 85%;
+    background-size: 100%;
 }
 
 .fivth {
     background: url("../img/3.jpg") no-repeat bottom right;
-    background-size: 85%;
+    background-size: 100%;
 }
 
 .sixth {
     background: url("../img/4.jpg") no-repeat bottom right;
-    background-size: 85%;
+    background-size: 100%;
 }
 
 .seventh {
     background: url("../img/5.jpg") no-repeat bottom right;
-    background-size: 85%;
+    background-size: 100%;
 }
 
 .eighth {
     background: url("../img/6.jpg") no-repeat bottom right;
-    background-size: 85%;
+    background-size: 100%;
 }
 
 .nineth {
     background: url("../img/7.jpg") no-repeat bottom right;
-    background-size: 85%;
+    background-size: 100%;
 }
 
 .tenth {
     background: url("../img/8.jpg") no-repeat bottom right;
-    background-size: 70%;
+    background-size: 100%;
 }
 }
 
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.3rem;
-    line-height: 1.5rem;
+    line-height: 2.4rem;
     font-weight: 900;
     letter-spacing: 0.1rem;
     margin-bottom: 0.1rem;
 }
 .imageHead {
+    position: absolute;
+    top: 45px;
+    margin-left: 8.3333333333%;
+    background: #fafafa;
+}
+.head {
     position: absolute;
     top: 45px;
     margin-left: 8.3333333333%;
@@ -134,9 +140,8 @@ div.footer > p {
 }
 
 @media only screen and (max-width: 700px) {
-    .slide2 > p {
-        font-size: 1.2rem;
-        line-height: 1.4rem;
+    .header-title {
+        max-width: 250px;
     }
 }
 
@@ -168,12 +173,12 @@ h1 {
 
 @media only screen and (max-width: 700px) {
     p.intro-p-text {
-        font-size: 1rem;
-        line-height: 1.35rem;
+        font-size: 1.1rem;
+        line-height: 1.65rem;
     }
     p {
-        font-size: 1.4rem;
-        line-height: 2rem;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
     }
     h1 {
         font-size: 1.4rem;
@@ -181,8 +186,8 @@ h1 {
 }
 @media only screen and (max-width: 320px) {
     p.intro-p-text {
-        font-size: .8rem;
-        line-height: 1.1rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
     p {
         font-size: 1.2rem;
