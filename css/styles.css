@@ -59,7 +59,7 @@ p {
     left: 0px;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 992px) {
 .third {
     background: url("../img/1.jpg") no-repeat bottom right;
     background-size: 85%;
