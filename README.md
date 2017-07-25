@@ -1,3 +1,5 @@
+> This project was not logged on Github until production, and all that remains here is the production fixes.  Helix was used locally during core development. 
+
 # newYorker
 ## We are in the big leagues now ⚾
 
